@@ -59,3 +59,5 @@ group :development do
   gem "error_highlight", ">= 0.4.0", platforms: [:ruby]
 end
 
+gem 'rails-controller-testing', group: [ :test ]
+gem 'rspec-rails', group: [ :test ]
