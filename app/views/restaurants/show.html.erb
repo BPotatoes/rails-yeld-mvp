@@ -8,6 +8,5 @@
 
 <div class="card">
   <h2>Review</h2>
-  <% @reviews  %>
-  <p><%=  %></p>
+  <p><%= link_to 'new review', new_restaurant_review_path(@restaurant)/%></p>
 </div>
